@@ -1,0 +1,161 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.ProductsImage{
+    width: 100%;
+    height: 470px;
+    background-image: url(../../assets/virat_kohli_1x_3_jpg.jpg);
+    background-size: cover;
+}
+.ImageBtn{
+    width: 647px;
+    height: 237px;
+    margin-left: 55%;
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ImageHead{
+    width: 100%;
+}
+.ImageHead h1{
+    font-size: 40px;
+    color: white;
+}
+.ImageBtns{
+    width: 442px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Btn1{
+    width: 130px;
+    height: 41px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Btn1 p{
+    color: black;
+    font-weight: 600;
+}
+.New{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.New h1{
+    font-size: 32px;
+    color: black;
+    margin-left: 40px;
+}
+.ProductSortBtn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.Filter{
+    width: 140px;
+    height: 40px;
+    margin-left: 40px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgba(0, 0, 0, 0.222);
+}
+.Filter img{
+    width: 20px;
+}
+
+.Search{
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.Sort img{
+    width: 12px;
+}
+.SortDropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .SortOptions {
+    width: 150px;
+    height: 40px;
+    margin-right: 60px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgba(0, 0, 0, 0.222);
+  }
+  
+.ProductsCount{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.ProductsCount h2{
+    font-weight: 500;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.Products{
+    width: 95%;
+    height: min-content;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    padding-left: 2.5%;
+}
+.Product{
+    width: 320px;
+    height: 430px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.296);
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.Product img{
+    width: 300px;
+    height: 220px;
+}
+.Black{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;    
+    font-weight: 700;
+    font-size: 14px;
+}
+.Red{
+    font-size: 12px;
+    font-weight: 600;
+    color: red;
+}
+.Grey{
+    color: gray;
+    font-size: 12px;
+}
